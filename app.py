@@ -123,7 +123,7 @@ def create_horizontal_bar_chart(data):
         marker=dict(color=blue_colors)
     ))
 
-    # Customize the layout
+   
     fig.update_layout(
         title='Horizontal Bar Chart',
         xaxis_title='Value',
@@ -134,13 +134,13 @@ def create_horizontal_bar_chart(data):
 
     return fig
 
-# Data for the bar chart
+
 data = {
     'Category': ['A', 'B', 'C', 'D'],
     'Value': [40, 30, 20, 10]
 }
 
-# Create the horizontal bar chart
+
 fig = create_horizontal_bar_chart(data)
 with col11:
     st.markdown('<br>', unsafe_allow_html=True)
